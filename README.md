@@ -14,7 +14,8 @@ My solution assumes that both drivers are travelling through a straight line, so
 
 For driver 1 the detour distance would be the sum of going through the points in the following manner: 
 ( A->C->D->B ) - ( A->B )
-In the same way to get the detour distance for driver2 he would through the points in the following manner:
+
+In the same way to get the detour distance for driver2 he would go through the points in the following manner:
 ( C->A->B->D ) - ( C->D )
 
 This solution makes use of the haversine formula in order to calculate the distance between two coordinates,
